@@ -2,23 +2,23 @@ export const topics = [
     {
         id: 1,
         name: 'Introduction',
-        description: 'Short Introduction to React '
+        description: ''
     },
     {
         id: 2,
         name: 'Main Concepts of React',
-        description: 'Obvious'
+        description: ''
 
     },
     {
         id: 3,
         name: 'Hands On Experience',
-        description: 'Obvious'
+        description: ''
     },
     {
         id: 4,
         name: 'Davids Presentation',
-        description: 'Obvious',
+        description: '',
         link: 'https://qt1337.github.io/Angular-ePortfolio/'
     },
 ];
