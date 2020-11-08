@@ -1,9 +1,13 @@
 .App {
-  background-color: #282c34;
   text-align: center;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3,1fr);
+}
+
+.presentationTitle {
+  color: #FFFF00;
+  font-family: Courier;
 }
 
 .App-logo {
