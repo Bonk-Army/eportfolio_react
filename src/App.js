@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import CardList from "./components/cardlist/card-list.component";
 import React, {Component} from 'react';
+import SocialLogoComponent from "./components/sociallogos/social-logo.component";
 
 class App extends Component {
 
@@ -20,6 +21,7 @@ class App extends Component {
                         E-Portfolio React SE-Course WS 2020/2021
                     </p>
                 </header>
+                <SocialLogoComponent />
             </div>
         );
     }

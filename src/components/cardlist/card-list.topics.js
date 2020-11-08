@@ -17,11 +17,6 @@ export const topics = [
     },
     {
         id: 4,
-        name: 'Useful Ressources',
-        description: 'Obvious'
-    },
-    {
-        id: 5,
         name: 'Davids Presentation',
         description: 'Obvious'
     },
