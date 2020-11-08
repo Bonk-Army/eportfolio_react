@@ -6,6 +6,7 @@ import SocialLogoComponent from "./components/sociallogos/social-logo.component"
 import {Route, BrowserRouter as Router} from "react-router-dom";
 import Slide from "./components/slides/slide.component";
 import { HashLink } from 'react-router-hash-link';
+import { ChevronUp } from 'react-feather';
 
 class App extends Component {
 
@@ -28,7 +29,11 @@ class App extends Component {
                     <SocialLogoComponent />
                 </header>
                 <Slide/>
-                <HashLink smooth to="#top">Link to Top of Page</HashLink>
+                <HashLink smooth to="#top">
+                    <div className="tc pa4">
+                        <ChevronUp color="yellow" size={48}/>
+                    </div>
+                </HashLink>
             </div>
 
             </Router>
