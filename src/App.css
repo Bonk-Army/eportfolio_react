@@ -1,8 +1,8 @@
 .App {
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3,1fr);
+  grid-template-columns: 1fr;
+  grid-template-rows: 20% auto;
 }
 
 .presentationTitle {

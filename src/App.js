@@ -4,6 +4,7 @@ import CardList from "./components/cardlist/card-list.component";
 import React, {Component} from 'react';
 import SocialLogoComponent from "./components/sociallogos/social-logo.component";
 import {Route, BrowserRouter as Router} from "react-router-dom";
+import Slide from "./components/slides/slide.component";
 class App extends Component {
 
     constructor() {
@@ -24,7 +25,9 @@ class App extends Component {
                     </p>
                     <SocialLogoComponent />
                 </header>
+                <Slide/>
             </div>
+
             </Router>
         );
     }

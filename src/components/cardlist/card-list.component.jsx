@@ -5,7 +5,7 @@ import {topics} from './card-list.topics.js';
 const topic2 = topics;
 const CardList = ({ topics }) => {
     return (
-        <div className="cardList">
+        <div className="pt2 cardList">
             {
                 topic2.map(topic => (
                         <Card key={topic.id} topic={topic.name} description={topic.description}/>
