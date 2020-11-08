@@ -18,6 +18,7 @@ export const topics = [
     {
         id: 4,
         name: 'Davids Presentation',
-        description: 'Obvious'
+        description: 'Obvious',
+        link: 'https://qt1337.github.io/Angular-ePortfolio/'
     },
 ];

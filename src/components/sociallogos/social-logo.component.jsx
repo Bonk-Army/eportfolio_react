@@ -7,7 +7,7 @@ class SocialLogoComponent extends Component {
     }
     render() {
         return(
-            <a className="link near-black hover-silver dib h2 w2 mr3" href="https://github.com/mrmrs"
+            <a className="link near-black hover-silver dib h2 w2 mr3" href="https://github.com/liza-kl"
                title="GitHub">
                 <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd"
                      clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
