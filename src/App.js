@@ -5,6 +5,8 @@ import React, {Component} from 'react';
 import SocialLogoComponent from "./components/sociallogos/social-logo.component";
 import {Route, BrowserRouter as Router} from "react-router-dom";
 import Slide from "./components/slides/slide.component";
+import { HashLink } from 'react-router-hash-link';
+
 class App extends Component {
 
     constructor() {
@@ -26,6 +28,7 @@ class App extends Component {
                     <SocialLogoComponent />
                 </header>
                 <Slide/>
+                <HashLink smooth to="#top">Link to Top of Page</HashLink>
             </div>
 
             </Router>
