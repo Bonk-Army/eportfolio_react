@@ -9,7 +9,7 @@ const CardList = ({ topics }) => {
             {
                 topic2.map(topic => (
                         <Card key={topic.id} topic={topic.name} description={topic.description}/>
-                    ))}
+                    ))
             }
         </div>
     );
