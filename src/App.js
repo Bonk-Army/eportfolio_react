@@ -18,7 +18,6 @@ class App extends Component {
     render() {
         return (
             <Router>
-                <Route></Route>
             <div className="App bg-black">
                 <CardList/>
                 <header className="App-header">
@@ -30,12 +29,11 @@ class App extends Component {
                 </header>
                 <Slide/>
                 <HashLink smooth to="#top">
-                    <div className="tc pa4">
-                        <ChevronUp color="yellow" size={48}/>
+                    <div className="bg-black tc">
+                        <ChevronUp color="yellow"/>
                     </div>
                 </HashLink>
             </div>
-
             </Router>
         );
     }

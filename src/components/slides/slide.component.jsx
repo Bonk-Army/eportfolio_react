@@ -6,7 +6,7 @@ const slide2 = slides;
 
 const Slide = ({ slides }) => {
     return (
-        <div>
+        <div className="bg-black">
         {slide2.map(slide => (
         <article className="yellow cf ph3 ph5-ns pv5 p5 center">
             <header className="fn fl-ns w-50-ns pr4-ns">
