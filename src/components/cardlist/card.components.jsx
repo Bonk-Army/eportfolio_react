@@ -5,7 +5,6 @@ const Card = ({ topic, description }) => {
     return (
             <div>
                 <h2 className="white">{topic}</h2>
-                <p>{description}</p>
             </div>
 
     );

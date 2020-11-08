@@ -10,7 +10,7 @@ const CardList = ({ topics }) => {
         <div className="pt2 cardList">
             {
                 topic2.map(topic => (
-                        <Card elementId={topic.id} key={topic.id} topic={topic.name} description={topic.description}/>
+                        <Card elementId={topic.id} key={topic.id} topic={topic.name}/>
 
                 ))
             }
