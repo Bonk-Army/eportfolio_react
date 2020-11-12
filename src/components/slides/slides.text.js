@@ -2,12 +2,11 @@ export const slides = [
     {
         "id": "1",
         "topic": "Introduction",
-        "smallTopic": "Where does React come from?",
         text: [' Established in 2013 by Facebook', ' A lot of code, hard to manage', ' Angular js was building.']
     },
     {
         "id": "2",
-        "smallTopic": "more blabla",
+        "topic": "What are the Main Features?",
         text: [' Declarative',' Component-Based',' Learn Once Apply everywhere', ' Virtual DOM']
 
     },
@@ -34,7 +33,6 @@ export const slides = [
     {
         "id": "6",
         "topic": "Useful Ressources",
-        "smallTopic": "more blabla",
         text: {'Web Dev Simplified YouTube Channel':'https://www.youtube.com/watch?v=1wZoGFF_oi4&list=PLZlA0Gpn_vH_NT5zPVp18nGe_W9LqBDQK' ,
             'npm':'https://www.npmjs.com/',
             'React Documentation':'https://reactjs.org/'}
