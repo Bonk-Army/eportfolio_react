@@ -35,8 +35,8 @@ export const slides = [
         "id": "6",
         "topic": "Useful Ressources",
         "smallTopic": "more blabla",
-        text: {' www.goo4gle.com':'https://stackoverflow.com/questions/40950546/react-js-right-way-to-iterate-over-object-instead-of-object-entries' ,
-            'NPM':'https://www.npmjs.com/',
+        text: {'Web Dev Simplified YouTube Channel':'https://www.youtube.com/watch?v=1wZoGFF_oi4&list=PLZlA0Gpn_vH_NT5zPVp18nGe_W9LqBDQK' ,
+            'npm':'https://www.npmjs.com/',
             'React Documentation':'https://reactjs.org/'}
 
 
