@@ -26,7 +26,7 @@ export const slides = [
     },
     {
         "id": "5",
-        "topic": "How To get started?",
+        "topic": "A small React Playground",
         text: ['']
 
     },
@@ -36,7 +36,7 @@ export const slides = [
         text: {'Web Dev Simplified YouTube Channel':'https://www.youtube.com/watch?v=1wZoGFF_oi4&list=PLZlA0Gpn_vH_NT5zPVp18nGe_W9LqBDQK' ,
             'npm':'https://www.npmjs.com/',
             'React Documentation':'https://reactjs.org/', 'React Developer Tools' : 'https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=de',
-        'React Ressources': 'https://reactresources.com/'}
+        'React Resources': 'https://reactresources.com/'}
 
 
     },

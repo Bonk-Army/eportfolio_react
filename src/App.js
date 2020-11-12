@@ -1,8 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import CardList from "./components/cardlist/card-list.component";
 import React, {Component} from 'react';
-import SocialLogoComponent from "./components/sociallogos/social-logo.component";
 import { MemoryRouter } from 'react-router'
 import Slide from "./components/slides/slide.component";
 import { HashLink } from 'react-router-hash-link';
