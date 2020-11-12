@@ -6,7 +6,7 @@ export const slides = [
         "id": "1",
         "topic": "Introduction",
         "smallTopic": "Where does React come from?",
-        "text": text
+        "text": "oooo\n"
     },
     {
         "id": "2",

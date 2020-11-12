@@ -11,7 +11,7 @@ const CardList = ({}) => {
             {
                 topic2.map(topic => (
 
-                    <HashLink smooth to={window.location.pathname+"#"+topic.name}>
+                    <HashLink smooth to={window.location.pathname+"#"+topic.name} className="grow">
                         <Card elementId={topic.id} key={topic.id} topic={topic.name}/>
                     </HashLink>
                 ))
