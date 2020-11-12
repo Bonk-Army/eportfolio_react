@@ -8,10 +8,10 @@ const Slide = ({ slides }) => {
     return (
         <div className="bg-black">
         {slide2.map(slide => (
-        <article className="yellow cf ph3 ph5-ns pv5 p5 center">
+        <article className="yellow cf ph3 ph5-ns pv5 p5 center" id={slide.topic}>
             <header className="fn fl-ns w-50-ns pr4-ns">
                 <h1 className="f2 lh-title fw9 mb3 mt0 pt3 bt bw2">
-                    {slide.topic}
+                    {slide.topic}s
                 </h1>
                 <h2 className="f3 white lh-title">
                     {slide.smallTopic}

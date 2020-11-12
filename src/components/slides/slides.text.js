@@ -9,26 +9,20 @@ export const slides = [
         "text": text
     },
     {
-        "id": "1",
-        "topic": "Main Concepts",
+        "id": "2",
+        "topic": "Main Concepts of React",
         "smallTopic": "more blabla",
         "text": text
     },
     {
-        "id": "1",
-        "topic": "Blabla",
+        "id": "3",
+        "topic": "Hands On Experience",
         "smallTopic": "more blabla",
         "text": text
     },
     {
-        "id": "1",
-        "topic": "Blabla",
-        "smallTopic": "more blabla",
-        "text": text
-    },
-    {
-        "id": "1",
-        "topic": "Blabla",
+        "id": "4",
+        "topic": "Davids Presentation",
         "smallTopic": "more blabla",
         "text": text
     },
