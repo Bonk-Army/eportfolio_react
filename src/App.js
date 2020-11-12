@@ -8,6 +8,8 @@ import { MemoryRouter } from 'react-router'
 import Slide from "./components/slides/slide.component";
 import { HashLink } from 'react-router-hash-link';
 import { ChevronUp } from 'react-feather';
+import Typist from 'react-typist';
+
 
 class App extends Component {
 
@@ -24,7 +26,9 @@ class App extends Component {
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo"/>
                     <p className="presentationTitle">
-                        E-Portfolio React SE-Course WS 2020/2021
+                        <Typist>
+                        E-Portfolio on React SE-Course WS 2020/2021
+                        </Typist>
                     </p>
                     <SocialLogoComponent />
                 </header>

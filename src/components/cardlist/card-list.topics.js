@@ -10,14 +10,4 @@ export const topics = [
         description: ''
 
     },
-    {
-        id: 3,
-        name: 'Hands On Experience',
-        description: ''
-    },
-    {
-        id: 4,
-        name: 'Davids Presentation',
-        description: '',
-    },
 ];

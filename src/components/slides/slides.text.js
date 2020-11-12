@@ -6,25 +6,34 @@ export const slides = [
         "id": "1",
         "topic": "Introduction",
         "smallTopic": "Where does React come from?",
-        "text": "oooo\n"
+        text: ['Established in 2013 by Facebook', 'A lot of code, hard to manage', 'Angular js was building.']
     },
     {
         "id": "2",
         "topic": "Main Concepts of React",
         "smallTopic": "more blabla",
-        "text": text
+        text: ['Declarative','Component-Based','Learn Once Apply everywhere', 'Virtual DOM']
+
     },
     {
         "id": "3",
-        "topic": "Hands On Experience",
+        "topic": "Pros",
         "smallTopic": "more blabla",
-        "text": text
+        text: ['Declarative','Component-Based','Learn Once Apply everywhere']
+
     },
     {
         "id": "4",
-        "topic": "Davids Presentation",
+        "topic": "Cons",
         "smallTopic": "more blabla",
-        "text": text
-    },
+        text: ['Declarative','Component-Based','Learn Once Apply everywhere']
 
+    },
+    {
+        "id": "5",
+        "topic": "Useful Ressources",
+        "smallTopic": "more blabla",
+        text: ['React Documentation','Component-Based','Learn Once Apply everywhere']
+
+    },
 ]
