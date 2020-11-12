@@ -21,9 +21,6 @@ const Slide = ({ slides }) => {
                 <p className="f5 lh-copy measure mt0-ns">
                     {slide.text}
                 </p>
-                <p className="f5 lh-copy measure">
-                    {slide.text}
-                </p>
             </div>
         </article>
         ))}
