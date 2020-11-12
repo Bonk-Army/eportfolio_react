@@ -1,9 +1,8 @@
 import React, {Component} from 'react';
 import 'tachyons';
 import {slides} from "./slides.text";
-import List from 'rc-virtual-list';
 import {Heart} from "react-feather";
-
+import './slides.styles.css';
 const slide2 = slides;
 
 class Slide extends Component{
@@ -11,13 +10,14 @@ class Slide extends Component{
 constructor(props) {
     super(props);
     this.state = {
-        visible: true
+        visible: true,
     };
     this.clickedFunction = this.clickedFunction.bind(this);
 }
 
     clickedFunction() {
         this.setState(state => ({      visible: !state.visible    }));
+
     }
 
     render() {
@@ -33,14 +33,10 @@ constructor(props) {
                 </h1>
             </header>
             <div className="white fn fl-ns w-50-ns">
-                <p className="f5 lh-copy measure mt0-ns">
-
-                    {this.state.visible ?
-                    <List data={slide.text} itemKey="id" className="tl pb2 fw3 f4">
-                        {index => <li>{index}</li>}
-                    </List> : console.log('hidden bro')}
+                <p className="f5 lh-copy measure mt0-ns pl3">
+                    {slide.id !== '5' ? slide.text.map((point) => <li className='pb2 grow list tl f4'>{point}</li>) :
+                        Object.entries(slide.text).map(([title,link]) => <a href={link}><li className='grow list link2 tl f3'>{title}</li></a>)}
                 </p>
-                <Heart onClick={this.clickedFunction}>I am hidden</Heart>
             </div>
         </article>
         ))}
