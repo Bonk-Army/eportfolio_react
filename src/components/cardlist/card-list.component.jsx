@@ -3,7 +3,6 @@ import './card-list.styles.css';
 import Card from "./card.components";
 import {topics} from './card-list.topics.js';
 import { HashLink } from 'react-router-hash-link';
-
 const topic2 = topics;
 
 const CardList = ({}) => {
@@ -11,7 +10,8 @@ const CardList = ({}) => {
         <div className="pt2 cardList">
             {
                 topic2.map(topic => (
-                    <HashLink smooth to={"#"+topic.name}>
+
+                    <HashLink smooth to={window.location.pathname+"#"+topic.name}>
                         <Card elementId={topic.id} key={topic.id} topic={topic.name}/>
                     </HashLink>
                 ))

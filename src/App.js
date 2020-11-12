@@ -4,6 +4,7 @@ import CardList from "./components/cardlist/card-list.component";
 import React, {Component} from 'react';
 import SocialLogoComponent from "./components/sociallogos/social-logo.component";
 import {Route, BrowserRouter as Router} from "react-router-dom";
+import { MemoryRouter } from 'react-router'
 import Slide from "./components/slides/slide.component";
 import { HashLink } from 'react-router-hash-link';
 import { ChevronUp } from 'react-feather';
@@ -17,7 +18,7 @@ class App extends Component {
 
     render() {
         return (
-            <Router>
+            <MemoryRouter>
             <div className="App bg-black">
                 <CardList/>
                 <header className="App-header">
@@ -34,7 +35,7 @@ class App extends Component {
                     </div>
                 </HashLink>
             </div>
-            </Router>
+            </MemoryRouter>
         );
     }
 }
