@@ -26,13 +26,13 @@ export const slides = [
 
     },
     {
-        "id": "6",
+        "id": "5",
         "topic": "How To get started?",
         text: ['']
 
     },
     {
-        "id": "5",
+        "id": "6",
         "topic": "Useful Ressources",
         "smallTopic": "more blabla",
         text: {' www.goo4gle.com':'https://stackoverflow.com/questions/40950546/react-js-right-way-to-iterate-over-object-instead-of-object-entries' ,

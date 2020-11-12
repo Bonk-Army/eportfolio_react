@@ -3,11 +3,10 @@ import './App.css';
 import CardList from "./components/cardlist/card-list.component";
 import React, {Component} from 'react';
 import SocialLogoComponent from "./components/sociallogos/social-logo.component";
-import {Route, BrowserRouter as Router} from "react-router-dom";
 import { MemoryRouter } from 'react-router'
 import Slide from "./components/slides/slide.component";
 import { HashLink } from 'react-router-hash-link';
-import { ChevronUp } from 'react-feather';
+import {ChevronDown, ChevronUp} from 'react-feather';
 import Typist from 'react-typist';
 
 
@@ -22,20 +21,21 @@ class App extends Component {
         return (
             <MemoryRouter>
             <div className="App bg-black">
-                <CardList/>
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo"/>
-                    <p className="presentationTitle">
+                    <p className="yellow presentationTitle">
                         <Typist>
-                        E-Portfolio on React SE-Course WS 2020/2021
+                        E-Portfolio about React SE-Course WS 2020/2021
                         </Typist>
                     </p>
-                    <SocialLogoComponent />
+                    <HashLink smooth to="#Introduction">
+                        <ChevronDown size={48} className="yellow tc"/>
+                    </HashLink>
                 </header>
                 <Slide/>
                 <HashLink smooth to="#top">
                     <div className="bg-black tc">
-                        <ChevronUp color="yellow"/>
+                        <ChevronUp  size={48} color="yellow"/>
                     </div>
                 </HashLink>
             </div>
