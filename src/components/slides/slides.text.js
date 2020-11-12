@@ -26,13 +26,13 @@ export const slides = [
     },
     {
         "id": "5",
-        "topic": "A small React Playground",
+        "topic": "A Small React Playground",
         text: ['']
 
     },
     {
         "id": "6",
-        "topic": "Useful Ressources",
+        "topic": "Useful Resources",
         text: {'Web Dev Simplified YouTube Channel':'https://www.youtube.com/watch?v=1wZoGFF_oi4&list=PLZlA0Gpn_vH_NT5zPVp18nGe_W9LqBDQK' ,
             'npm':'https://www.npmjs.com/',
             'React Documentation':'https://reactjs.org/', 'React Developer Tools' : 'https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=de',

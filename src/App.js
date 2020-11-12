@@ -9,12 +9,6 @@ import Typist from 'react-typist';
 
 
 class App extends Component {
-
-    constructor() {
-        super();
-    }
-
-
     render() {
         return (
             <MemoryRouter>

@@ -2,9 +2,6 @@ import React, {Component} from "react";
 import './social-logo.styles.css';
 
 class SocialLogoComponent extends Component {
-    constructor() {
-        super();
-    }
     render() {
         return(
             <a className="link near-black hover-silver tc dib h2 w2 mr3" href="https://github.com/liza-kl"
