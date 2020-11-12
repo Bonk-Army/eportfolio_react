@@ -23,19 +23,19 @@ class App extends Component {
             <div className="App bg-black">
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo"/>
-                    <p className="yellow presentationTitle">
+                    <p className="light-green presentationTitle">
                         <Typist>
                         E-Portfolio about React SE-Course WS 2020/2021
                         </Typist>
                     </p>
                     <HashLink smooth to="#Introduction">
-                        <ChevronDown size={48} className="yellow tc"/>
+                        <ChevronDown size={48} className="light-green tc"/>
                     </HashLink>
                 </header>
                 <Slide/>
                 <HashLink smooth to="#top">
                     <div className="bg-black tc">
-                        <ChevronUp  size={48} color="yellow"/>
+                        <ChevronUp  size={48} className="light-green tc"/>
                     </div>
                 </HashLink>
             </div>

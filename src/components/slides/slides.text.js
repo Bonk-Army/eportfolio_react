@@ -2,7 +2,7 @@ export const slides = [
     {
         "id": "1",
         "topic": "Introduction",
-        text: [' Established in 2013 by Facebook', ' A lot of code, hard to manage', ' Angular js was building.']
+        text: [' Established by Facebook in 2013', ' A lot of code, hard to manage', ' Angular.js was going to get an update.']
     },
     {
         "id": "2",
@@ -13,15 +13,15 @@ export const slides = [
     {
         "id": "3",
         "topic": "Pros",
-        text: [' Easy to learn and use','Component-Based','Learn Once Apply everywhere','Creating Dynamic Web Applications Becomes Easier','Reusable Components',
-            'Performance Enhancement', 'Cleaner Code / More Structure']
+        text: [' Easy to learn and use','Huge Community', 'Creating Dynamic Web Applications Becomes Easier','Reusable Components',
+            'Performance Enhancement', 'Cleaner Code / Better Structure','Community is Growing Rapidly']
 
     },
     {
         "id": "4",
         "topic": "Cons",
-        text: [' Declarative',' Creating Dynamic Web Applications Becomes Easier',' Reusable Components',
-        ' Performance Enhancement', ' Community is Growing Rapidly']
+        text: [' JSX as a barrier',' View Part',
+        ' Learning Curve', ' Documentation' ]
 
     },
     {
@@ -35,7 +35,8 @@ export const slides = [
         "topic": "Useful Ressources",
         text: {'Web Dev Simplified YouTube Channel':'https://www.youtube.com/watch?v=1wZoGFF_oi4&list=PLZlA0Gpn_vH_NT5zPVp18nGe_W9LqBDQK' ,
             'npm':'https://www.npmjs.com/',
-            'React Documentation':'https://reactjs.org/'}
+            'React Documentation':'https://reactjs.org/', 'React Developer Tools' : 'https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=de',
+        'React Ressources': 'https://reactresources.com/'}
 
 
     },
