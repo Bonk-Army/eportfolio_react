@@ -13,7 +13,7 @@ export const slides = [
     {
         "id": "3",
         "topic": "Pros",
-        text: [' Easy to learn and use','Huge Community', 'Creating Dynamic Web Applications Becomes Easier','Reusable Components',
+        text: ['"Easier" to get started','Huge Community', 'Creating Dynamic Web Applications Becomes Easier','Reusable Components',
             'Performance Enhancement', 'Cleaner Code / Better Structure','Community is Growing Rapidly']
 
     },
@@ -33,7 +33,8 @@ export const slides = [
     {
         "id": "6",
         "topic": "Useful Resources",
-        text: {'Web Dev Simplified YouTube Channel':'https://www.youtube.com/watch?v=1wZoGFF_oi4&list=PLZlA0Gpn_vH_NT5zPVp18nGe_W9LqBDQK' ,
+        text: {'GitHub Repo with Links':'https://github.com/liza-kl/eportfolio',
+            'Web Dev Simplified YouTube Channel':'https://www.youtube.com/watch?v=1wZoGFF_oi4&list=PLZlA0Gpn_vH_NT5zPVp18nGe_W9LqBDQK' ,
             'npm':'https://www.npmjs.com/',
             'React Documentation':'https://reactjs.org/', 'React Developer Tools' : 'https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=de',
         'React Resources': 'https://reactresources.com/'}
